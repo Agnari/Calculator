@@ -1,0 +1,106 @@
+ .container {
+     width: 100%;
+     height: 100vh;
+     background-color: rgba(220, 234, 245, 0.589);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .calculator {
+    background: rgba(0, 0, 255, 0.21);
+     padding: 20px;
+     border-radius: 10px;
+     box-shadow: 8px 6px 1px 6px #333035e5;
+     border: 5px solid #333035e5;
+ }
+
+ form .display .screen {
+     border: 5px solid #333035e5;
+     background-color: #f9f7f3;
+ }
+
+ .calculator form input {
+     background-color: #f9f7f3;
+     border: 0;
+     outline: 0;
+     width: 60px;
+     height: 60px;
+     border-radius: 10px;
+     font-size: 22px;
+     color: #373538;
+     font-weight: 900;
+     cursor: pointer;
+     margin: 7px;
+     border: 3px solid #333035e5;
+     box-shadow: 3px 3px 1px 1px #333035e5;
+ }
+
+ form .display {
+     display: flex;
+     justify-content: flex-end;
+     margin: 20px 0;
+
+ }
+
+ form .display input {
+     text-align: right;
+     flex: 1;
+     font-size: 45px;
+     box-shadow: none;
+ }
+
+ form input.delete,
+ form input.result {
+     width: 137px;
+ }
+
+ form input.sqrt {
+     background-image: url('root.png');
+     background-size: 45% 45%;
+     background-repeat: no-repeat;
+     background-position: center;
+     border: none;
+     width: 60px;
+     height: 60px;
+     border: 3px solid #373538;
+ }
+
+ form input.x {
+    background-image: url('x.png');
+    background-size: 25% 25%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    width: 60px;
+    height: 60px;
+    border: 3px solid #373538;
+}
+
+form input.divide {
+    background-image: url('divide.png');
+    background-size: 25% 25%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    width: 60px;
+    height: 60px;
+    border: 3px solid #373538;
+}
+
+form input.ac, form input.delete, form input.lg{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+form input.divide,
+form input.x,
+form input.func{
+    background-color: rgba(129, 116, 202, 0.753);
+}
+
+form input.lg,
+form input.sqrt,
+form input.func2{
+    background-color: rgba(157, 148, 209, 0.47);
+}
